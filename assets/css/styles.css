@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.cars-table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.delete {
+  color: red;
+  padding: 3px 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 17px;
+}

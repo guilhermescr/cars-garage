@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Garage for cars</title>
+  </head>
+  <body>
+    <section id="parking">
+      <div class="register-container">
+        <input
+          type="text"
+          id="owner"
+          placeholder="Car's owner"
+          autocomplete="off"
+        />
+        <input
+          type="text"
+          id="brand"
+          placeholder="Car's brand"
+          autocomplete="off"
+        />
+        <input
+          type="text"
+          id="license-plate"
+          placeholder="Car's license-plate"
+          autocomplete="off"
+        />
+        <button id="registerBtn">Cadastrar</button>
+      </div>
+      <div class="cars-log">
+        <table class="cars-table">
+          <thead>
+            <tr>
+              <th>Owner</th>
+              <th>Brand</th>
+              <th>License-Plate</th>
+              <th colspan="2">Entrance</th>
+            </tr>
+          </thead>
+          <tbody id="parking-area"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
